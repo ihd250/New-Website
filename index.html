@@ -1,156 +1,554 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Custom Home Designers in Victoria BC - Impact Home Design</title>
-    <link
-      href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
-      rel="stylesheet"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
-    />
-    <link rel="stylesheet" href="styles.css" />
-  </head>
 
-  <body>
-    <nav>
-      <div class="nav__header">
-        <div class="nav__logo">
-          <a href="index.html"
-            ><img
-              src="assets/logo.png"
-              alt="CustomHomeDesign"
-              class="logo" /></a
-          ><!-- Does any of this need to be named ImpactHomeDesign or CustomHomeDesign for SEO Like Image Name? -->
-        </div>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Custom Home Designers in Victoria BC - Impact Home Design</title>
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
 
-        <div class="nav__menu__btn" id="menu-btn">
-          <i class="ri-menu-line"></i>
-        </div>
-
-        <div class="nav__links" id="nav-links">
-          <ul>
-            <li class="Home"><a href="index.html">Home</a></li>
-            <li class="About"><a href="index.html">About</a></li>
-            <li class="Services"><a href="index.html">Services</a></li>
-            <li class="Process"><a href="index.html">Process</a></li>
-            <li class="Deliverables"><a href="index.html">Deliverables</a></li>
-            <li class="Portfolio"><a href="index.html">Portfolio</a></li>
-            <li class="Contact"><a href="index.html">Contact</a></li>
-          </ul>
-        </div>
-        <div class="nav__menu__number">
-          <span class="divider"></span>
-          <a href="tel:+1 250 915 7965"><i>250-915-7965</i></a>
-        </div>
-      </div>
-    </nav>
-
-    <section class="section__container process__section">
-      <h2 class="section__header">Our Process</h2>
-
-      <div class="process__tabs">
-        <button class="process__tab is-active" data-index="0">
-          New Custom Homes
-        </button>
-        <button class="process__tab" data-index="1">Additions</button>
-        <button class="process__tab" data-index="2">Renovations</button>
-        <button class="process__tab" data-index="3">
-          Multi-Unit Developments
-        </button>
+<body>
+  <nav>
+    <div class="nav__header">
+      <div class="nav__logo">
+        <a href="index.html"><img src="assets/logo.png" alt="CustomHomeDesign"
+            class="logo" /></a><!-- Does any of this need to be named ImpactHomeDesign or CustomHomeDesign for SEO Like Image Name? -->
       </div>
 
-      <div class="process__stack">
-        <article class="process__card is-active" data-index="0">
-          <span class="process__edge pe1">New Custom Homes</span>
-          <h3>New Custom Homes</h3>
-          <p>...</p>
-        </article>
-
-        <article class="process__card" data-index="1">
-          <span class="process__edge pe2">Additions</span>
-          <h3>Additions</h3>
-          <p>...</p>
-        </article>
-
-        <article class="process__card" data-index="2">
-          <span class="process__edge pe3">Renovations</span>
-          <h3>Renovations</h3>
-          <p>...</p>
-        </article>
-
-        <article class="process__card" data-index="3">
-          <span class="process__edge pe4">Multi-Unit Developments</span>
-          <h3>Multi-Unit Developments</h3>
-          <p>...</p>
-        </article>
+      <div class="nav__menu__btn" id="menu-btn">
+        <i class="ri-menu-line"></i>
       </div>
-    </section>
 
-    <footer>
-      <div class="section__container footer__grid">
-        <div class="footer__description">
-          <h4>Impact Home Design</h4>
-          <p>
-            Providing high quality house plans in Victoria BC, Vancouver Island
-            & surrounding areas.
-          </p>
-        </div>
-        <div class="footer__links">
-          <h4>Navigation</h4>
-          <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="index.html">About</a></li>
-            <li><a href="index.html">Services</a></li>
-            <li><a href="index.html">Process</a></li>
-            <li><a href="index.html">Deliverables</a></li>
-            <li><a href="index.html">Portfolio</a></li>
-          </ul>
-        </div>
-        <div class="footer__contact">
-          <h4>Contact Us</h4>
-          <ul>
-            <li>
-              <i class="ri-phone-line"></i
-              ><a href="tel:250-915-7965">250-915-7965</a>
-            </li>
-            <li>
-              <i class="ri-mail-line"></i
-              ><a href="mailto:info@impacthomedesign.ca"
-                >info@impacthomedesign.ca</a
-              >
-            </li>
-            <li>
-              <i class="ri-survey-line"></i
-              ><a href="index.html">Contact Form</a>
-            </li>
-          </ul>
-          <div class="footer__socials">
-            <a href="www.factbook.com/impacthomedesign"
-              ><i class="ri-facebook-line"></i
-            ></a>
-            <a href="www.instagram.com/impacthomedesign"
-              ><i class="ri-instagram-line"></i
-            ></a>
-            <a href="https://ca.linkedin.com/in/taylor-simpson-bisson-1843181a1"
-              ><i class="ri-linkedin-line"></i
-            ></a>
+      <div class="nav__links" id="nav-links">
+        <ul>
+          <li class="Home"><a href="index.html">Home</a></li>
+          <li class="About"><a href="index.html">About</a></li>
+          <li class="Services"><a href="index.html">Services</a></li>
+          <li class="Process"><a href="index.html">Process</a></li>
+          <li class="Deliverables"><a href="index.html">Deliverables</a></li>
+          <li class="Portfolio"><a href="index.html">Portfolio</a></li>
+          <li class="Contact"><a href="index.html">Contact</a></li>
+        </ul>
+      </div>
+      <div class="nav__menu__number">
+        <span class="divider"></span>
+        <a href="tel:+1 250 915 7965"><i>250-915-7965</i></a>
+      </div>
+    </div>
+  </nav>
+
+  <section class="section__container process__section">
+    <h2 class="section__header">Our Process</h2>
+
+    <div class="process__tabs">
+      <button class="process__tab is-active" data-index="0">
+        New Custom Homes
+      </button>
+      <button class="process__tab" data-index="1">Additions</button>
+      <button class="process__tab" data-index="2">Renovations</button>
+      <button class="process__tab" data-index="3">
+        Multi-Unit Developments
+      </button>
+    </div>
+
+    <!-- New Custom Homes -->
+
+    <div class="process__stack">
+      <article class="process__card is-active" data-index="0">
+        <span class="process__edge pe1">New Custom Homes</span>
+        <div class="process__stack__title">
+          <div class="process__title">
+            <h2> The Design Process - New Custom Homes</h2>
           </div>
         </div>
-      </div>
-      <div class="section__container footer__socket">
-        <h5>
-          Copyright © 2026 - Impact Design LTD. - All Rights Reserved.
-          <span class="break">Website By: Taylor Simpson-Bisson</span>
-        </h5>
-      </div>
-    </footer>
 
-    <script src="https://unpkg.com/scrollreveal"></script>
-    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-    <script src="main.js"></script>
-  </body>
+        <div class="process__page__section" id="customhomes">
+          <div class="process__page__img">
+            <img src="assets/predesign.jpg" alt="" />
+          </div>
+          <div class="process__page__title">
+            <h3><span>1.</span> Planning & Pre-Design</h3>
+            <div class="process__page__description process__cstm1">
+              <h4>Initial Project Meeting -</h4>
+              <p>To meet you, get an understanding of your thoughts and see if we'd be a good fit.
+                We would discuss your ideas, exchange questions and samples, and get an overall
+                idea of each other.</p>
+
+              <h4>Coordination & Consultation -</h4>
+              <p>We go over your thoughts, ideas and wishes in more detail and formulate the logictics and
+                how to implement them into the design.</p>
+
+              <h4>Zoning Analysis & Project Specifictions -</h4>
+              <p>To formualte the peramaters we must work within and to go over each aspect of the house
+                in more detail. We'd create a document laying out each item clearly so it's documented
+                and ready to be put into the design.</p>
+
+              <h4>Confirmation of Initial Specifications -</h4>
+              <p>This gives you time to make changes to the specifics of the project before the majority
+                design work is completed.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="process__page__section" id="customhomes">
+          <div class="process__page__img">
+            <img src="assets/predesign.jpg" alt="" />
+          </div>
+          <div class="process__page__title">
+            <h3><span>2.</span> Schematic Design</h3>
+            <div class="process__page__description process_cstm2">
+              <h4>Site Plan & Data -</h4>
+              <p>To show how the house will sit on the lot with a detailed data table to show that
+                we are meeting all the zoning regulations required.</p>
+
+              <h4>Rough Coloured Exterior Concepts -</h4>
+              <p>To show the basic shape and colour scheme without any details added. This gives a
+                general representation of the house for your consideration before proceeding.</p>
+
+              <h4>Detailed Floor Plans -</h4>
+              <p>Showing the layout of the house in detail, complete with dimensions, room sizes, fixtures
+                to-scale furnature and with space planning and flow taken care of.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="process__page__section" id="customhomes">
+          <div class="process__page__img">
+            <img src="assets/predesign.jpg" alt="" />
+          </div>
+          <div class="process__page__title">
+            <h3><span>3.</span> Design Development</h3>
+            <div class="process__page__description">
+              <h4>Continued Refinements & Changes -</h4>
+              <p>Likely, the design won't be perfect at the beginning. This is where you get to 'red pen'
+                the drawings and tailor them to exactly what you'd like.</p>
+
+              <h4>Detailed Elevations & Perspectives -</h4>
+              <p>The exteriors change from a rough concept to a highly detailed model with siding and trims figured out,
+                railings, features, and everything that makes the house pop.</p>
+
+              <h4>Interior Modelling -</h4>
+              <p>The interior is the space you'll live in. Modelling it and showing it in 3D is how you will know the
+                space is right for you. You'll digitally stand in the house and look around in every direction.</p>
+
+              <h4>Exterior & Interior Renders -</h4>
+              <p>Rendered still images of important areas of the house to show you exactly how the space will look
+                and feel before we proceed to finalizing the drawings.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="process__page__section" id="customhomes">
+          <div class="process__page__img">
+            <img src="assets/predesign.jpg" alt="" />
+          </div>
+          <div class="process__page__title">
+            <h3><span>4.</span> Construction Documents</h3>
+            <div class="process__page__description">
+              <h4>Construction Drawings for Pricing, Other Professionals & Builders -</h4>
+              <p>The drawings you have approved are now turned into finalized construction drawings, designed
+                to convey to the builder and any other professional all the necessary information required
+                to accurately construct your new home. Our construction drawings have been fine-tuned and refined
+                to be builder-friendly and easy to read from years of listening to builder's requests and
+                comments. We take pride in following up on each new home project, both during construction and
+                after completion.</p>
+
+              <h4>Building Permit Application Drawings -</h4>
+              <p>Drawings meet all the check list items for the building permit application process for
+                the municipality/region the project is located in. The drawings become a legal document
+                with the city and are kept on record forever.</p>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <!-- Additions -->
+
+      <article class="process__card" data-index="1">
+        <span class="process__edge pe2">Additions</span>
+        <div class="process__stack__title">
+          <div class="process__title">
+            <h2> The Design Process - Additions</h2>
+          </div>
+        </div>
+
+        <div class="process__page__section" id="customhomes">
+          <div class="process__page__img">
+            <img src="assets/predesign.jpg" alt="" />
+          </div>
+          <div class="process__page__title">
+            <h3><span>1.</span> Planning & Pre-Design</h3>
+            <div class="process__page__description process__cstm1">
+              <h4>Initial Project Meeting -</h4>
+              <p>To meet you, get an understanding of your thoughts and see if we'd be a good fit.
+                We would discuss your ideas, exchange questions and samples, and get an overall
+                idea of each other and the project.</p>
+
+              <h4>Coordination & Consultation -</h4>
+              <p>We go over your thoughts, ideas and wishes in more detail and formulate the logictics and
+                how to implement them into the design.</p>
+
+              <h4>Zoning Analysis & Existing Structure -</h4>
+              <p>To formualte the peramaters we must work within and to create an accurate representation
+              of the existing structure</p>
+
+              <h4>Confirmation of Existing Drawings -</h4>
+              <p>Another site meeting to confirm measurements, obtain details of structure and take reference
+              pictures. We also go over the project once more and confirm everything prior to design for accuracy.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="process__page__section" id="customhomes">
+          <div class="process__page__img">
+            <img src="assets/predesign.jpg" alt="" />
+          </div>
+          <div class="process__page__title">
+            <h3><span>2.</span> Preliminary Drawings</h3>
+            <div class="process__page__description process_cstm2">
+              <h4>Site Plan & Data -</h4>
+              <p>To show where the house is and how all new portions will sit in relation to it.
+                A detailed data table to show that we're meeting all the zoning regulations required.</p>
+
+              <h4>3D Views -</h4>
+              <p>Additions are best visualized with at least one 3D view. All drawings of this nature come
+              with black and white 3D views to accompany the elevation drawings.</p>
+
+              <h4>Elevation Drawings -</h4>
+              <p>Elevations of all four sides dressed up with trims, siding and any features to show how
+              the project will look in the end.</p>
+
+              <h4>Detailed Floor Plans -</h4>
+              <p>Showing the layout of the project in detail highlighting the difference between old strucutre
+                and new. The floor plans include dimensions, room sizes, fixtures to-scale furnature and 
+                with space planning and flow taken care of.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="process__page__section" id="customhomes">
+          <div class="process__page__img">
+            <img src="assets/predesign.jpg" alt="" />
+          </div>
+          <div class="process__page__title">
+            <h3><span>3.</span> Design Development</h3>
+            <div class="process__page__description">
+              <h4>Continued Refinements & Changes -</h4>
+              <p>Likely, the design won't be perfect at the beginning. This is where you get to 'red pen'
+                the drawings and tailor them to exactly what you'd like.</p>
+
+              <h4>2nd & 3rd Preliminary Drawings</h4>
+              <p>The exteriors change from a rough concept to a highly detailed model with siding and trims figured out,
+                railings, features, and everything that makes the house pop.</p>
+
+              <h4>Final Changes Before Construction Drawings</h4>
+              <p>The interior is the space you'll live in. Modelling it and showing it in 3D is how you will know the
+                space is right for you. You'll digitally stand in the house and look around in every direction.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="process__page__section" id="customhomes">
+          <div class="process__page__img">
+            <img src="assets/predesign.jpg" alt="" />
+          </div>
+          <div class="process__page__title">
+            <h3><span>4.</span> Construction Documents</h3>
+            <div class="process__page__description">
+              <h4>Construction Drawings for Pricing, Other Professionals & Builders -</h4>
+              <p>The drawings you have approved are now turned into finalized construction drawings, designed
+                to convey to the builder and any other professional all the necessary information required
+                to accurately construct your new home. Our construction drawings have been fine-tuned and refined
+                to be builder-friendly and easy to read from years of listening to builder's requests and
+                comments. We take pride in following up on each new home project, both during construction and
+                after completion.</p>
+
+              <h4>Building Permit Application Drawings -</h4>
+              <p>Drawings meet all the check list items for the building permit application process for
+                the municipality/region the project is located in. The drawings become a legal document
+                with the city and are kept on record forever.</p>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <!-- Renovations -->
+
+      <article class="process__card" data-index="2">
+        <span class="process__edge pe3">Renovations</span>
+        <div class="process__stack__title">
+          <div class="process__title">
+            <h2> The Design Process - Renovations</h2>
+          </div>
+        </div>
+
+        <div class="process__page__section" id="customhomes">
+          <div class="process__page__img">
+            <img src="assets/predesign.jpg" alt="" />
+          </div>
+          <div class="process__page__title">
+            <h3><span>1.</span> Planning & Pre-Design</h3>
+            <div class="process__page__description process__cstm1">
+              <h4>Initial Project Meeting -</h4>
+              <p>To meet you, get an understanding of your thoughts and see if we'd be a good fit.
+                We would discuss your ideas, exchange questions and samples, and get an overall
+                idea of each other and the project.</p>
+
+              <h4>Coordination & Consultation -</h4>
+              <p>We go over your thoughts, ideas and wishes in more detail and formulate the logictics and
+                how to implement them into the design.</p>
+
+              <h4>Zoning Analysis & Existing Structure -</h4>
+              <p>To formualte the peramaters we must work within and to create an accurate representation
+              of the existing structure</p>
+
+              <h4>Confirmation of Existing Drawings -</h4>
+              <p>Another site meeting to confirm measurements, obtain details of structure and take reference
+              pictures. We also go over the project once more and confirm everything prior to design for accuracy.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="process__page__section" id="customhomes">
+          <div class="process__page__img">
+            <img src="assets/predesign.jpg" alt="" />
+          </div>
+          <div class="process__page__title">
+            <h3><span>2.</span> Preliminary Drawings</h3>
+            <div class="process__page__description process_cstm2">
+              <h4>Site Plan & Data -</h4>
+              <p>To show where the house is and how all new portions will sit in relation to it.
+                A detailed data table to show that we're meeting all the zoning regulations required.</p>
+
+              <h4>3D Views -</h4>
+              <p>Additions are best visualized with at least one 3D view. All drawings of this nature come
+              with black and white 3D views to accompany the elevation drawings.</p>
+
+              <h4>Elevation Drawings -</h4>
+              <p>Elevations of all four sides dressed up with trims, siding and any features to show how
+              the project will look in the end.</p>
+
+              <h4>Detailed Floor Plans -</h4>
+              <p>Showing the layout of the project in detail highlighting the difference between old strucutre
+                and new. The floor plans include dimensions, room sizes, fixtures to-scale furnature and 
+                with space planning and flow taken care of.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="process__page__section" id="customhomes">
+          <div class="process__page__img">
+            <img src="assets/predesign.jpg" alt="" />
+          </div>
+          <div class="process__page__title">
+            <h3><span>3.</span> Design Development</h3>
+            <div class="process__page__description">
+              <h4>Continued Refinements & Changes -</h4>
+              <p>Likely, the design won't be perfect at the beginning. This is where you get to 'red pen'
+                the drawings and tailor them to exactly what you'd like.</p>
+
+              <h4>2nd & 3rd Preliminary Drawings</h4>
+              <p>The exteriors change from a rough concept to a highly detailed model with siding and trims figured out,
+                railings, features, and everything that makes the house pop.</p>
+
+              <h4>Final Changes Before Construction Drawings</h4>
+              <p>The interior is the space you'll live in. Modelling it and showing it in 3D is how you will know the
+                space is right for you. You'll digitally stand in the house and look around in every direction.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="process__page__section" id="customhomes">
+          <div class="process__page__img">
+            <img src="assets/predesign.jpg" alt="" />
+          </div>
+          <div class="process__page__title">
+            <h3><span>4.</span> Construction Documents</h3>
+            <div class="process__page__description">
+              <h4>Construction Drawings for Pricing, Other Professionals & Builders -</h4>
+              <p>The drawings you have approved are now turned into finalized construction drawings, designed
+                to convey to the builder and any other professional all the necessary information required
+                to accurately construct your new home. Our construction drawings have been fine-tuned and refined
+                to be builder-friendly and easy to read from years of listening to builder's requests and
+                comments. We take pride in following up on each new home project, both during construction and
+                after completion.</p>
+
+              <h4>Building Permit Application Drawings -</h4>
+              <p>Drawings meet all the check list items for the building permit application process for
+                the municipality/region the project is located in. The drawings become a legal document
+                with the city and are kept on record forever.</p>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <!-- Multi-Unit Developments -->
+
+      <article class="process__card" data-index="3">
+        <span class="process__edge pe4">Multi-Unit Developments</span>
+        <div class="process__stack__title">
+          <div class="process__title">
+            <h2> The Design Process - Multi-Unit Developments</h2>
+          </div>
+        </div>
+
+        <div class="process__page__section" id="customhomes">
+          <div class="process__page__img">
+            <img src="assets/predesign.jpg" alt="" />
+          </div>
+          <div class="process__page__title">
+            <h3><span>1.</span> Planning & Pre-Design</h3>
+            <div class="process__page__description process__cstm1">
+              <h4>Initial Project Meeting -</h4>
+              <p>To meet you, get an understanding of your thoughts and see if we'd be a good fit.
+                We would discuss your ideas, exchange questions and samples, and get an overall
+                idea of each other.</p>
+
+              <h4>Coordination & Consultation -</h4>
+              <p>We go over your thoughts, ideas and wishes in more detail and formulate the logictics and
+                how to implement them into the design.</p>
+
+              <h4>Zoning Analysis & Project Specifictions -</h4>
+              <p>To formualte the peramaters we must work within and to go over each aspect of the house
+                in more detail. We'd create a document laying out each item clearly so it's documented
+                and ready to be put into the design.</p>
+
+              <h4>Confirmation of Initial Specifications -</h4>
+              <p>This gives you time to make changes to the specifics of the project before the majority
+                design work is completed.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="process__page__section" id="customhomes">
+          <div class="process__page__img">
+            <img src="assets/predesign.jpg" alt="" />
+          </div>
+          <div class="process__page__title">
+            <h3><span>2.</span> Preliminary Drawings</h3>
+            <div class="process__page__description process_cstm2">
+              <h4>Site Plan & Data -</h4>
+              <p>To show how the house will sit on the lot with a detailed data table to show that
+                we are meeting all the zoning regulations required.</p>
+
+              <h4>Rough Coloured Exterior Concepts -</h4>
+              <p>To show the basic shape and colour scheme without any details added. This gives a
+                general representation of the house for your consideration before proceeding.</p>
+
+              <h4>Detailed Floor Plans -</h4>
+              <p>Showing the layout of the house in detail, complete with dimensions, room sizes, fixtures
+                to-scale furnature and with space planning and flow taken care of.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="process__page__section" id="customhomes">
+          <div class="process__page__img">
+            <img src="assets/predesign.jpg" alt="" />
+          </div>
+          <div class="process__page__title">
+            <h3><span>3.</span> Design Development</h3>
+            <div class="process__page__description">
+              <h4>Continued Refinements & Changes -</h4>
+              <p>Likely, the design won't be perfect at the beginning. This is where you get to 'red pen'
+                the drawings and tailor them to exactly what you'd like.</p>
+
+              <h4>Detailed Elevations & Perspectives -</h4>
+              <p>The exteriors change from a rough concept to a highly detailed model with siding and trims figured out,
+                railings, features, and everything that makes the house pop.</p>
+
+              <h4>Interior Modelling -</h4>
+              <p>The interior is the space you'll live in. Modelling it and showing it in 3D is how you will know the
+                space is right for you. You'll digitally stand in the house and look around in every direction.</p>
+
+              <h4>Exterior & Interior Renders -</h4>
+              <p>Rendered still images of important areas of the house to show you exactly how the space will look
+                and feel before we proceed to finalizing the drawings.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="process__page__section" id="customhomes">
+          <div class="process__page__img">
+            <img src="assets/predesign.jpg" alt="" />
+          </div>
+          <div class="process__page__title">
+            <h3><span>4.</span> Construction Documents</h3>
+            <div class="process__page__description">
+              <h4>Construction Drawings for Pricing, Other Professionals & Builders -</h4>
+              <p>The drawings you have approved are now turned into finalized construction drawings, designed
+                to convey to the builder and any other professional all the necessary information required
+                to accurately construct your new home. Our construction drawings have been fine-tuned and refined
+                to be builder-friendly and easy to read from years of listening to builder's requests and
+                comments. We take pride in following up on each new home project, both during construction and
+                after completion.</p>
+
+              <h4>Building Permit Application Drawings -</h4>
+              <p>Drawings meet all the check list items for the building permit application process for
+                the municipality/region the project is located in. The drawings become a legal document
+                with the city and are kept on record forever.</p>
+            </div>
+          </div>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <footer>
+    <div class="section__container footer__grid">
+      <div class="footer__description">
+        <h4>Impact Home Design</h4>
+        <p>
+          Providing high quality house plans in Victoria BC, Vancouver Island
+          & surrounding areas.
+        </p>
+      </div>
+      <div class="footer__links">
+        <h4>Navigation</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="index.html">About</a></li>
+          <li><a href="index.html">Services</a></li>
+          <li><a href="index.html">Process</a></li>
+          <li><a href="index.html">Deliverables</a></li>
+          <li><a href="index.html">Portfolio</a></li>
+        </ul>
+      </div>
+      <div class="footer__contact">
+        <h4>Contact Us</h4>
+        <ul>
+          <li>
+            <i class="ri-phone-line"></i><a href="tel:250-915-7965">250-915-7965</a>
+          </li>
+          <li>
+            <i class="ri-mail-line"></i><a href="mailto:info@impacthomedesign.ca">info@impacthomedesign.ca</a>
+          </li>
+          <li>
+            <i class="ri-survey-line"></i><a href="index.html">Contact Form</a>
+          </li>
+        </ul>
+        <div class="footer__socials">
+          <a href="www.factbook.com/impacthomedesign"><i class="ri-facebook-line"></i></a>
+          <a href="www.instagram.com/impacthomedesign"><i class="ri-instagram-line"></i></a>
+          <a href="https://ca.linkedin.com/in/taylor-simpson-bisson-1843181a1"><i class="ri-linkedin-line"></i></a>
+        </div>
+      </div>
+    </div>
+    <div class="section__container footer__socket">
+      <h5>
+        Copyright © 2026 - Impact Design LTD. - All Rights Reserved.
+        <span class="break">Website By: Taylor Simpson-Bisson</span>
+      </h5>
+    </div>
+  </footer>
+
+  <script src="https://unpkg.com/scrollreveal"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script src="main.js"></script>
+</body>
+
 </html>
+
