@@ -36,6 +36,30 @@
   color: var(--primary-color);
 }
 
+  .pe1 {
+    top: 9.5rem;
+  }
+
+  .pe2 {
+    top: 5.25rem;
+  }
+
+  .pe3 {
+    top: 6.5rem;
+  }
+
+  .pe4 {
+    top: 12.25rem;
+  }
+
+  .plapre {
+    max-width: 280px;
+  }
+
+  .desdev {
+    max-width: 280px;
+  }
+
 .section__header {
   position: relative;
   isolation: isolate;
@@ -2193,3 +2217,4 @@ footer::before {
 body.no-scroll {
   overflow: hidden;
 }
+
